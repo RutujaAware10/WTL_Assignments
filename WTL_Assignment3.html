@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Simple Calculator</title>
+<link rel="stylesheet" href="style.css">
+<script type="text/javascript">
+function add(){
+var num1 = parseInt(document.f1.num1.value);
+var num2 = parseInt(document.f1.num2.value);
+var result = num1 + num2;
+
+document.write("Result: " + result);
+}
+</script>
+</head>
+
+<body>
+<form name="f1">
+<input type="text" id="num1" name="num1" placeholder="Enter first number"><br>
+<input type="text" id="num2" name="num2" placeholder="Enter second number"><br>
+<button type="button" onclick="add()">Add</button>
+</form>
+</body>
+</html>
